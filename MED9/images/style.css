@@ -1,0 +1,21 @@
+img{
+	border: 35px;
+	width: 80px;
+}
+.right{
+	margin: 8px;
+	border: 10px dashed lightblue;
+	width: 200px;
+	float: right;
+
+
+}
+.left{
+	margin: 10px;
+	border: 12px solid lightblue;
+	float: left;
+	width: 150px;
+}
+body{
+	font-size: 20px;
+}

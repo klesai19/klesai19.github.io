@@ -1,0 +1,18 @@
+:root{
+	scroll-behavior: smooth;
+}
+h1{
+	text-align: center;
+	background-color: lightgreen;
+	font-size: 60px;
+}
+h2{
+	background-color: lightblue;
+}
+
+#hallo{
+	background-color: pink;
+}
+.small{
+	width: 300px;
+}

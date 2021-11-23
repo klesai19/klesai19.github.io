@@ -1,0 +1,22 @@
+h1{
+	background-color: blue;
+	text-align: center;
+	font-size: 55px;
+	color: white;
+}
+
+body{
+	background-color: Lightgreen;
+}
+
+p {
+	font-size: 30px;
+	background-color:red;
+}
+
+ol{
+	background-color: pink;
+	border: 3px solid green;
+	border-radius: 20px;
+	font-size: 20px;
+}
