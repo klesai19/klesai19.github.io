@@ -1,0 +1,17 @@
+P{
+	background: rgb(142,137,219);
+background: linear-gradient(90deg, rgba(142,137,219,0.39539565826330536) 5%, rgba(0,255,128,1) 100%);
+font-size: 40px;
+
+}
+h1{
+
+background: rgb(219,137,187);
+background: linear-gradient(0deg, rgba(219,137,187,0.39539565826330536) 5%, rgba(84,185,182,1) 27%, rgba(72,151,195,1) 48%, rgba(179,54,210,1) 74%, rgba(0,255,128,1) 94%);
+font-size: 40px;
+}
+h2{
+	background: rgb(219,137,196);
+background: radial-gradient(circle, rgba(219,137,196,0.5158438375350141) 5%, rgba(185,84,144,1) 55%, rgba(16,0,255,1) 94%);
+font-size: 40px;
+}

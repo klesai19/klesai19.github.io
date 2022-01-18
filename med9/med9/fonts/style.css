@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@500&family=Teko&display=swap');
+h1{
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+	margin: 30px;
+	font-family: "abril fatface";
+	letter-spacing: 5px;
+}
+p{
+	margin: 70px;
+	text-align: justify;
+	font-family: "Teko";
+	column-count: 3;
+	line-height: 1.5;
+}
+.signature{
+	margin: 60px;
+	font-size: 70px;
+	font-family: Dancing Script ;
+	column-count: 1;
+}
+body{
+	background: rgb(0,9,255);
+background: linear-gradient(221deg, rgba(0,9,255,0.5914740896358543) 36%, rgba(166,0,162,0.7595413165266106) 59%);
+
+}
