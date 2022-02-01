@@ -1,0 +1,32 @@
+h2{
+	width: 1000px;
+	height: 500px;
+	background-color: lightcoral;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+p{
+	background-color: lightblue;
+}
+div{
+	background-color: lightgreen;
+	width: 1000px;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 60px;
+}
+.hallo{
+	background-color: lightblue;
+	height: 500px;
+	width: 1000px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-end;
+
+}
+img{
+	width: 200px;
+}
