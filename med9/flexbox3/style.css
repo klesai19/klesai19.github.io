@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Redressed&display=swap');
+
+header{
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(bild1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+header h1{
+	padding: 30px;
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 20px;
+}
+
+main{
+	padding: 100px;
+	background: linear-gradient(221deg, rgba(0,0,0,1) 17%, rgba(255,25,25,1) 100%);
+
+
+}
+
+main p{
+	column-count: 2;
+	color: white;
+	font-family: "Redressed";
+}
+
+#schaltung{
+	padding: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+}
+
+#schaltung ul li{
+	padding: 20px;
+	margin: 30px;
+	background-color: lightgrey;
+
+}
+
+footer{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 400px;
+	background-image: url(bild2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+footer p{
+	padding: 30px;
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 20px;
+	font-family: "Dancing Script"
+}
