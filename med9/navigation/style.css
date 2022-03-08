@@ -1,0 +1,40 @@
+body{
+	margin: 0;
+}
+
+nav{
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
+}
+
+nav img{
+	height: 70px;
+	border-radius: 50px;
+
+}
+
+ul{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none;
+
+}
+
+ul li a {
+	margin: 20px;
+	padding: 20px;
+	text-decoration: none;
+	color: darkblue;
+	background-color: white;
+	border-radius: 10px;
+}
+
+ul li a:hover {
+	background-color: darkblue;
+	color: white;
+}
+
