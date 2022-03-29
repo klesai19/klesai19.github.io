@@ -56,8 +56,6 @@ header{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/* how to use a backround image */
-	background-image: url(cars.jpg) ;
 	background-position: center;
 	background-size: cover;
 }
@@ -69,6 +67,12 @@ header h1{
 	border-radius: 20px;
 	padding: 20px;
 }
+
+/*Main*/
+main {
+	padding: 100px;
+}
+
 
 /* Footer */
 footer {
@@ -89,6 +93,45 @@ footer p{
 section{
 	padding: 50px;
 	background-color: darkgray;
+
+}
+
+/******************************* Page Styles*************/
+
+/* Home Page */
+#Home header{
+	background-image: url(cars.jpg) ;
+}
+
+
+/* About Page */
+#About header{
+	background-image: url(header-background-about.jpg);
+
+}
+main h2{
+	color: blau;
+}
+
+/* Cities Page */
+#Cities header{
+	background-image: url(cities.jpg);
+}
+main h2{
+	color: pink;
+}
+
+/* Tiere Page*/
+#Tiere header{
+	background-image: url(tiere.jpg);
+}
+
+main{
+	background-color: grey;
+
+}
+main h2{
+	color: green;
 
 }
 
