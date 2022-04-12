@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+body{
+	margin: 0;
+	background-color: rgb(255, 232, 179);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family:"Lato";
+}
+
+article .image{
+	height: 200px;
+	width: 300px;
+	background-image: url("tulips.jpg");
+	background-position: center;
+	background-size: cover;
+	padding: 30px;
+}
+
+article .text{
+	height: 200px;
+	width: 300px;
+	background-color: whitesmoke;
+	padding: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	flex-direction: column;
+
+}
+
+article{
+	position: relative;
+}
+
+article .box{
+	background-color: salmon;
+	color: white;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 6px;
+	position: absolute;
+	left: 0px;
+	top: 235px;
+}
+
+article .text footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: darkgrey;
+}
+
+article .text header{
+	text-transform: uppercase;
+	font-size: 13px;
+}
+
+header span{
+	margin-right: 7px;
+}
