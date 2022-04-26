@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+body{
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+article{
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+}
+
+article .image{
+	background-image: url(parisi1.jpg);
+	background-position: left;
+	background-size: cover;
+	width: 500px;
+	height: 450px;
+}
+
+article .text{
+	background: linear-gradient(221deg, rgba(74,75,89,1) 6%, rgba(54,57,79,1) 36%, rgba(0,0,0,1) 97%);
+	height: 450px;
+	width: 500px;
+	background-position: right;
+
+}
+
+article .text p{
+	background-color: black;
+	color: white;
+	font-size: 35px;
+	position: absolute;
+	left: 900px;
+	top:380px;
+	padding: 12px;
+	font-family: "Roboto";
+
+
+}
+
+article .text h1{
+	background-color: rgb(232, 170, 0);
+	color: white;
+	font-size: 50px;
+	text-transform: uppercase;
+	position: absolute;
+	left: 1000px;
+	top: 440px;
+	padding: 12px;
+	font-family: "Roboto";
+
+}
