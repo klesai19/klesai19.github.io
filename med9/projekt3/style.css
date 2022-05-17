@@ -1,0 +1,394 @@
+/*
+*
+* Title: Website about cars
+* Author: Roi Bushaj
+* Date: 17.03.2022
+*/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Patrick+Hand&display=swap');
+
+/*********************General Styling*********************/ 
+
+:root{
+	scroll-behavior: smooth;
+}
+
+
+
+body{
+
+	margin: 0px;
+
+}
+
+/*Navigation*/
+
+nav {
+	background-color: rgb(0, 0, 0,0.9);
+	display: flex;
+	justify-content: space-between; /*To make the links on the right side and the links in the left*/
+	align-items: center;
+	padding: 30px;
+
+
+}
+nav img{
+	height: 100px;
+	border-radius: 50%; /*To make the logo round*/
+
+}
+nav ul{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none; /*It removes the bullet points*/
+
+
+}
+
+nav ul li a{
+	margin: 20px;
+	padding: 25px;
+	text-decoration: none;/*Removes the line under the link*/
+	background-color: darkgrey;
+	border-radius: 15px;
+	font-family: Dancing Script;
+	font-size: 20px;
+	}
+
+	nav ul li a:hover{
+	/*Hover changes the element if we move the mouse over it*/
+	color: red;
+	text-transform: capitalize;/*It makes the writting big*/
+	text-overflow: ellipsis;
+	pointer-events: painted;
+	}
+
+
+/*Header*/
+header{
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-position: center;
+	background-size: cover;
+	font-family: Dancing Script;
+	font-size: 20px;
+
+ }
+
+header h1{
+	font-size: 30px;
+	background-color: rgb(255, 255, 255,0.7);
+	border-radius: 15px;
+  
+}
+header h1:hover{
+	color: black;
+	transform:scale(1.8) rotate(360deg) ;
+	transition: all 1.8s;
+
+}
+/*Main*/
+ main{
+	padding: 50px;
+	background-color: black;	
+	font-family: Dancing Script;
+	font-size: 20px;
+	color: white;
+
+}
+
+main h2{
+	color: white;
+	font-size:30px ;
+
+}
+
+main p{
+	ackground-color: grey;
+	padding: 20px;
+}
+/*Section*/
+section{
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+section .left{
+	width: 50%;
+	background-image: url(foto1.jpg);	
+	padding: 30px;
+    color: white;
+    font-family: Dancing Script;
+    font-size: 25px;
+
+}
+section .right{
+	width: 50%;
+background: linear-gradient(347deg, rgba(18,32,88,1) 0%, rgba(5,3,27,0.8603816526610644) 50%, rgba(60,28,128,1) 100%);
+	padding: 30px;
+    color: white;
+	font-family: Dancing Script;
+    font-size: 25px;
+	background-image: url(foto1.jpg);	
+ 
+  
+
+}
+
+
+
+/*FOOTER*/
+footer{
+	height: 400px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-image: url(logo2.jpg);
+	background-position: center;
+	background-size: cover;
+ 	font-family: Dancing Script;
+	font-size: 20px;
+
+
+}
+
+footer p{
+background-color: rgb(255, 255, 255,0.7);
+padding: 10px;
+border-radius: 15px;
+font-size: 40px;
+}
+footer p:hover{
+color: white;
+
+
+}
+
+
+/*********************Page Styling*********************/ 
+
+/* Home Page */
+ #home header{
+	background-image: url(logo1.jpg);
+ }
+
+ #home #Harley-Davidson{
+ 	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+ }
+
+#home #Harley-Davidson img{
+	width:230px ;
+	margin: 10px;
+	border: 3px darkorange;
+
+
+}
+
+
+
+
+/*Products.html*/
+
+#products article{
+	position: relative;
+	color: black;
+}
+#products section.info{
+	padding: 50px;
+	background-color: black;	
+	font-family: Dancing Script;
+	font-size: 20px;
+	color: white;
+
+}
+
+#products section h2.info{
+	color: white;
+	font-size:30px ;
+
+}
+#products header{
+	background-image: url(logo1.jpg);
+ }
+
+ #products #Harley-Davidson{
+ 	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+ }
+
+#products #Harley-Davidson img{
+	width:230px ;
+	margin: 10px;
+	border: 3px solid darkgrey;
+
+}
+ 
+
+#products main{
+	display: flex;
+	justify-content: space-evenly;
+	gap:30px ;  
+	flex-wrap: wrap;
+
+}
+#products header {
+	background-image: url(bild23.jpg);
+	background-position: center;
+	background-size: cover;
+
+}
+
+
+
+
+
+/****Article****/
+
+article{
+position: relative;
+}
+
+article .PAN AMERICA™ 1250{
+	width: 280px;
+	height: 180px;
+	background-image: url("motorcycle1.png");
+	background-position: center;
+	background-size: cover;
+	padding: 20px;
+
+}
+
+article .text{
+	width:280px ;
+	height: 300px;
+	background-color:ghostwhite ;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-direction: column;
+
+
+}
+  article .text .mini-header{
+  	text-transform: uppercase;
+  	font-size: smaller;
+  	position: relative;
+  	left: -16px;
+
+  }
+
+
+
+ article .text .mini-footer{
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: space-between;
+ 	font-size:18px;
+ 	color: black;
+ 	width:100% ;
+ 	position: relative;
+ 	left: -10px;
+ 	top: -30px;
+ 	column-gap: 5px;
+
+ }
+
+article .text .mini-header span{
+	margin-right: 8px;
+
+}
+article .box{
+	background-color: red;
+	padding: 6px;
+	text-transform:uppercase ;
+	position: absolute;
+	top: 189px;
+	left: 0px;
+	color: white;
+}
+
+
+article .ROAD KING™{
+	width: 280px;
+	height: 180px;
+	background-image: url("motorcycle2..png");
+	background-position: center;
+	background-size: cover;
+	padding: 20px;
+}
+
+article .SPORTSTER™ S{
+	width: 280px;
+	height: 180px;
+	background-image: url("motorcycle3.png");
+	background-position: center;
+	background-size: cover;
+	padding: 20px;
+	}
+
+	article .FAT BOB™{
+	width: 280px;
+	height: 180px;
+	background-image: url("motorcycle4.png");
+	background-position: center;
+	background-size: cover;
+	padding: 20px;
+	
+
+}
+
+article .CVO™ ROAD GLIDE™{
+	width: 280px;
+	height: 180px;
+	background-image: url("motorcycle5.png");
+	background-position: center;
+	background-size: cover;
+	padding: 20px;
+	}
+
+	article .JACKETS AND VESTS{
+	width: 280px;
+	height: 180px;
+	background-image: url("jacket.png");
+	background-position: center;
+	background-size: cover;
+	padding: 20px;
+}
+
+article .HELMETS{
+	width: 280px;
+	height: 180px;
+	background-image: url("helmet.png");
+	background-position: center;
+	background-size: cover;
+	padding: 20px;
+}
+
+article .HOODIES{
+	width: 280px;
+	height: 180px;
+	background-image: url("hoodies.png");
+	background-position: center;
+	background-size: cover;
+	padding: 20px;
+	}
+	article h1{
+	position: relative;
+	top: -20px;
+	font-family: Patrick Hand;
+
+	}
+
