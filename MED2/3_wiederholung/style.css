@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+h1{
+	height: 200px;
+}
+
+.green{
+	background-color: lightgreen;
+	font-family: Roboto, sans-serif;
+	width: 250px;
+}
+
+.yellow{
+	background-color: yellow;
+	height: 40px;
+	font-family: Roboto, sans-serif ;
+}
+
+.red{
+	background-color: red;
+	height: 500px;
+	width: 55px;
+	font-family: Roboto, sans-serif;
+}

@@ -1,0 +1,51 @@
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: slategrey;
+	height: 160px;
+
+
+}
+
+nav img{
+	height: 160px;
+
+}
+
+nav ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+nav ul li{
+	display: flex;
+	margin: 8px;
+	background-color: darkgray;
+	padding: 16px;
+	border-radius: 15px;
+	font-family: Calibri, sans-serif;
+	text-transform: uppercase;
+
+
+}
+
+body{
+	background-color: ghostwhite;
+	margin: 0px;
+
+}
+
+nav ul li:hover{
+	background-color: black;
+	color: white;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	
+}
