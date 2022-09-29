@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Loading...</title>
+	<style type="text/css">
+	.ball{
+		width: 25px;
+		height: 25px;
+		border-radius: 50px;
+		margin: 10px;
+		display: flex;
+		justify-content: center;
+		align-items: stretch;
+		animation: move 2s alternate infinite;
+
+	}
+	
+	.blue {
+		background-color: blue;
+
+	}
+	.purple {
+		background-color: purple;
+		animation-delay: 0.25s;
+
+	}
+	.violet {
+		background-color: violet;
+		animation-delay: 0.5s;
+
+	}
+	.pink {
+		background-color: pink;
+		animation-delay: 0.75s;
+
+	}
+	.container{
+		height: 300px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.text{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		letter-spacing: 5px;
+		font-size: 20px;
+		animation: 2s text infinite alternate;
+		margin-top:-60px ;
+
+	}
+
+	@keyframes move{
+		0%{transform: translateY(0%);}
+		100%{transform: translateY(25px);}
+	}
+
+	@keyframes text{
+		0%{opacity: 0;}
+		100%{opacity: 1;}
+	}
+
+			
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="blue ball"></div>
+		<div class="purple ball"></div>
+		<div class="violet ball"></div>
+		<div class="pink ball"></div>
+	</div>
+
+	<div class="text">Loading...</div>
+
+</body>
+</html>
