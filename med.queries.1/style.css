@@ -1,0 +1,63 @@
+footer {
+	background-color: darkred;
+	display: flex;
+	align-items: stretch;
+	color: black;
+}
+ footer div ul li p{
+	display: flex;
+	justify-content: space-between;
+	
+}
+div{
+	display: block;
+	padding: 20px;
+	margin: 10px;
+
+
+	
+}
+
+
+.about{
+	width: 25%;
+
+}
+.services{
+	width: 25%;
+}
+.company{
+	width: 50%;
+}
+
+
+p a{
+	text-decoration: none;
+	color: black;
+}
+@media (max-width: 768px){
+	footer{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	
+
+
+	}
+	 div .about {
+		display: flex;
+		justify-content: center;
+	}
+	 div .services {
+		display: flex;
+		justify-content: center;
+	}
+	div .company {
+		display: flex;
+		justify-content: center;
+
+	}
+	
+	
+}
