@@ -1,0 +1,33 @@
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.grid-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto auto auto;
+	width: 50vh;
+	height: 50vh;
+	
+}
+.grid-container div{
+	background-color: blueviolet;
+}
+
+.special1{
+	grid-row: 1/3;
+	grid-column: 1/3;
+
+}
+
+.special2{
+	grid-row: 3/4;
+	grid-column: 2/4;
+}
+div{
+	border: solid;
+}
